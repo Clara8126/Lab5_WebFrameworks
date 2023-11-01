@@ -1,0 +1,56 @@
+header h1 {
+    background-color: darkgrey;
+    margin: 0%;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+body {
+    height: auto;
+    margin: 0%;
+    background-color:lightgray;
+    text-align: center;
+    font-family:'calibri', Times, serif;
+    
+}
+.photo {
+    position: relative;
+    overflow: hidden;
+    width: 700px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .photo img {
+    position: relative;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+ button{
+    width: 80px;
+    height: 20px;
+    padding: 5px;
+
+    background-color:gray;
+    box-sizing: content-box;
+    color: whitesmoke;
+    font-family:'calibri', Times, serif;
+
+}
+
+.footer {
+    margin: 0%;
+    padding: 10px;
+    background-color: black;
+    text-align: right;
+}
+
+.footer li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
